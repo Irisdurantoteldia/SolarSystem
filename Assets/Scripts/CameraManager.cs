@@ -54,5 +54,6 @@ public class CameraManager : MonoBehaviour
             DisableAllCameras();
             cameras[4].SetActive(true);
         }
+        
     }
 }

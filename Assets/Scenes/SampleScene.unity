@@ -1692,8 +1692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -703.51685, y: 0.000023842}
-  m_SizeDelta: {x: 512.9662, y: 1080}
+  m_AnchoredPosition: {x: -688.2989, y: 4.3481}
+  m_SizeDelta: {x: 491.2261, y: 1019.1282}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1499546803
 MonoBehaviour:
@@ -2762,7 +2762,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 683.40295, y: 0, z: -892.7983, w: -507.8764}
+  m_margin: {x: 687.7509, y: 17.39209, z: -918.88617, w: -507.8764}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2923,7 +2923,6 @@ GameObject:
   - component: {fileID: 2137489498}
   - component: {fileID: 2137489497}
   - component: {fileID: 2137489496}
-  - component: {fileID: 2137489499}
   m_Layer: 0
   m_Name: TopCamera
   m_TagString: Untagged
@@ -3049,69 +3048,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &2137489499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137489494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81032235cad5530458a8c07b6e69aa99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  distance: 10
-  maxDistance: 25
-  minDistance: 5
-  mouseControl: 1
-  mouseAxisX: Mouse X
-  mouseAxisY: Mouse Y
-  mouseAxisZoom: Mouse ScrollWheel
-  keyboardControl: 0
-  kbPanAxisX: Horizontal
-  kbPanAxisY: Vertical
-  kbUseZoomAxis: 0
-  zoomInKey: 114
-  zoomOutKey: 102
-  kbZoomAxisName: 
-  initialAngleX: 0
-  initialAngleY: 0
-  invertAxisX: 0
-  invertAxisY: 0
-  invertAxisZoom: 0
-  xSpeed: 1
-  ySpeed: 1
-  zoomSpeed: 5
-  dampeningX: 0.9
-  dampeningY: 0.9
-  smoothingZoom: 0.1
-  limitY: 1
-  yMinLimit: -60
-  yMaxLimit: 60
-  yLimitOffset: 0
-  limitX: 0
-  xMinLimit: -60
-  xMaxLimit: 60
-  xLimitOffset: 0
-  clickToRotate: 1
-  leftClickToRotate: 1
-  rightClickToRotate: 0
-  autoRotateOn: 0
-  autoRotateReverse: 0
-  autoRotateSpeed: 0.1
-  SpinEnabled: 0
-  spinUseAxis: 0
-  spinKey: 306
-  spinAxis: 
-  maxSpinSpeed: 3
-  cameraCollision: 0
-  collisionRadius: 0.25
-  invertXValue: 1
-  invertYValue: 1
-  invertZoomValue: 1
-  autoRotateReverseValue: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
