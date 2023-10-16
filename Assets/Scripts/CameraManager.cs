@@ -6,12 +6,16 @@ public class CameraManager : MonoBehaviour
 {
     public GameObject[] cameras;
 
-    public GameObject ui;
+    public GameObject panelA;
+    public GameObject panelB;
     // Start is called before the first frame update
     void Start()
     {
         DisableAllCameras();
         cameras[0].SetActive(true);
+
+        panelA.SetActive(true);
+        panelB.SetActive(false);
     }
 
     void DisableAllCameras()
@@ -53,6 +57,12 @@ public class CameraManager : MonoBehaviour
         {
             DisableAllCameras();
             cameras[4].SetActive(true);
+        }
+
+         if (Input.GetKeyDown(KeyCode.Space))
+        {
+            panelA.SetActive(!panelA.activeSelf);
+            panelB.SetActive(!panelB.activeSelf);
         }
         
     }
