@@ -58,6 +58,11 @@ public class CameraManager : MonoBehaviour
             DisableAllCameras();
             cameras[4].SetActive(true);
         }
+         if (Input.GetKeyDown(KeyCode.Y))
+        {
+            DisableAllCameras();
+            cameras[5].SetActive(true);
+        }
 
          if (Input.GetKeyDown(KeyCode.Space))
         {
